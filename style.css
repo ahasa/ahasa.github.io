@@ -99,21 +99,19 @@ code {
 
 .question-answers {
   margin-top: 0.75em;
-  padding-left: 1.2em;
   background: #fefefe;
   border-radius: 5px;
   margin-bottom: 5px;
   border-left: 8px solid #ffdd55;
-  background-color: #f1f1f1;
-  list-style-type: none;
+  background-color: #fff;
+  list-style: none;
 }
 
 .question-answer {
-  list-style-type: decimal;
   cursor: pointer;
-  padding: 0.3em;
-  margin-bottom: 0.3em;
-  border: 5px solid transparent;
+  padding: 25px 10px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid #efefef;
 }
 
 .question-answer span {
