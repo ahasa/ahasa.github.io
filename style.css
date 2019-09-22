@@ -11,7 +11,8 @@ div[data-reactroot] {
 
 body {
   width: 100%;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Almarai", "Roboto", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   font-size: 9px;
   background: #ddd;
   color: #222;
@@ -209,7 +210,9 @@ code {
     transform: translateX(2px);
   }
 }
-
+.link {
+  color: #0099ff;
+}
 .correct-modal {
   font-size: 5em;
   text-align: center;
@@ -283,6 +286,7 @@ code {
 
   h1 {
     font-size: 3em;
+    font-stretch: condensed;
   }
 
   header {
