@@ -65,8 +65,15 @@ code {
 
 .score-container,
 .question-count {
-  width: 250px;
+  width: 200px;
   text-align: center;
+  background: #555;
+  color: #ffdd55;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  border-bottom: 2px solid #ffdd55;
+  margin: 10px;
 }
 
 .score-container h2,
@@ -80,8 +87,6 @@ code {
 .question-number {
   font-size: 4em;
   font-weight: 700;
-  color: #ffdd55;
-  text-shadow: 5px 5px 10px black;
 }
 
 .description {
@@ -96,22 +101,36 @@ code {
 .question {
   font-size: 2em;
 }
+.question-title {
+  background: #555;
+  color: #ffdd55;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  border-bottom: 2px solid #ffdd55;
+  text-align: right;
+}
 
 .question-answers {
   margin-top: 0.75em;
   background: #fefefe;
   border-radius: 5px;
   margin-bottom: 5px;
-  border-left: 8px solid #ffdd55;
-  background-color: #fff;
   list-style: none;
+  background: #ddd;
 }
 
 .question-answer {
+  background-color: #fff;
   cursor: pointer;
-  padding: 25px 10px;
+  padding: 15px 10px;
   margin-bottom: 2px;
   border-bottom: 1px solid #efefef;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 1em;
+  text-align: right;
+  border-right: 8px solid #ffdd55;
 }
 
 .question-answer span {
